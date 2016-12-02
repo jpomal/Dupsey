@@ -28,12 +28,6 @@ class User : NSObject{
     }
     
     
-    public func createUser(){
-        
-        
-    }
-    
-    
     
     
 }

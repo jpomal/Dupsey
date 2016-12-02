@@ -39,3 +39,23 @@ func getVenueStatus() -> String{
         return "No event info available"
     }
 }
+
+
+func changeEventStatus(){
+    
+    switch eveStat.self {
+    case .comingsoon :
+        print("Event Coming Soon")
+        fallthrough
+    case .available :
+        print("Event is Available")
+        fallthrough
+    case .cancelled :
+        print("Event is Canceled")
+        fallthrough
+    case .unavailable :
+        print("Event is Unavailable")
+    }
+    
+        
+}
