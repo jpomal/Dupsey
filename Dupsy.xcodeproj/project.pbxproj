@@ -47,6 +47,8 @@
 		A3F26ADC1DD0F7D300B723E8 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F26ADB1DD0F7D300B723E8 /* Venue.swift */; };
 		A3F26ADD1DD0F7D300B723E8 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F26ADB1DD0F7D300B723E8 /* Venue.swift */; };
 		A3F26ADE1DD0F7D300B723E8 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F26ADB1DD0F7D300B723E8 /* Venue.swift */; };
+		A3F6A30B1DF472B0007B94E5 /* TicketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F6A30A1DF472B0007B94E5 /* TicketManager.swift */; };
+		A3F6A30D1DF472C2007B94E5 /* TicketStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F6A30C1DF472C2007B94E5 /* TicketStatus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +98,8 @@
 		A3F26ACD1DCD05E300B723E8 /* Venue_Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue_Status.swift; sourceTree = "<group>"; };
 		A3F26AD11DCD05F700B723E8 /* User_Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User_Status.swift; sourceTree = "<group>"; };
 		A3F26ADB1DD0F7D300B723E8 /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		A3F6A30A1DF472B0007B94E5 /* TicketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketManager.swift; sourceTree = "<group>"; };
+		A3F6A30C1DF472C2007B94E5 /* TicketStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketStatus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,8 @@
 				A3F26ABC1DCC76BF00B723E8 /* VenueManager.swift */,
 				A3F26ACD1DCD05E300B723E8 /* Venue_Status.swift */,
 				A330D7431DED6A7F00809958 /* Ticket.swift */,
+				A3F6A30A1DF472B0007B94E5 /* TicketManager.swift */,
+				A3F6A30C1DF472C2007B94E5 /* TicketStatus.swift */,
 			);
 			path = Dupsy;
 			sourceTree = "<group>";
@@ -347,7 +353,9 @@
 				A31859801DA2C4500075D86A /* AppDelegate.swift in Sources */,
 				A31859AE1DA2C4850075D86A /* User.swift in Sources */,
 				A3F26AB71DCC768D00B723E8 /* Event.swift in Sources */,
+				A3F6A30D1DF472C2007B94E5 /* TicketStatus.swift in Sources */,
 				A330D7441DED6A7F00809958 /* Ticket.swift in Sources */,
+				A3F6A30B1DF472B0007B94E5 /* TicketManager.swift in Sources */,
 				A3F26AC11DCC776E00B723E8 /* UserManager.swift in Sources */,
 				A3F26ADC1DD0F7D300B723E8 /* Venue.swift in Sources */,
 				A39B645C1DE9EDD100D62BDC /* SQLViewController.swift in Sources */,

@@ -19,11 +19,9 @@ class Ticket: NSObject{
     init(id: NSString, eveinfo:Event){
         self.ticket_id = id
         self.event_info = eveinfo
-    
-    
         }
 
-    
+
     
     
 }
