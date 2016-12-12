@@ -26,6 +26,12 @@ class VenueManager{
         
     }
     
+    func approveVenue(){
+        
+        
+    }
+    
+    
     func removeVenue(venue : Venue){
         
         if let index = venueList.index(of: venue) {

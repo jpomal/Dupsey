@@ -32,6 +32,19 @@ class TicketManager: Ticket {
         
     }
     
+    func getTicketBarcode(){
+        
+        
+    }
+
+    
+    
+    
+
+    //Ticket authenication should be via a barcode/qr scanner which only the event holder can have access to
+    //Will need a module for a barcode scanner
+    
+    
     
     
     

@@ -24,9 +24,8 @@
 		A31859B31DA2C6610075D86A /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31859B11DA2C6610075D86A /* ConnectionManager.swift */; };
 		A31859B41DA2C6610075D86A /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31859B11DA2C6610075D86A /* ConnectionManager.swift */; };
 		A330D7441DED6A7F00809958 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330D7431DED6A7F00809958 /* Ticket.swift */; };
+		A390AE6C1DFAA20400FB5D0D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A390AE6B1DFAA20400FB5D0D /* Podfile */; };
 		A39B64571DE9EC1E00D62BDC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A39B64561DE9EC1E00D62BDC /* libsqlite3.tbd */; };
-		A39B645B1DE9EDD100D62BDC /* SQLDataIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39B64581DE9EDD100D62BDC /* SQLDataIO.swift */; };
-		A39B645C1DE9EDD100D62BDC /* SQLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39B64591DE9EDD100D62BDC /* SQLViewController.swift */; };
 		A3F26AB71DCC768D00B723E8 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F26AB61DCC768D00B723E8 /* Event.swift */; };
 		A3F26AB91DCC769F00B723E8 /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F26AB81DCC769F00B723E8 /* EventManager.swift */; };
 		A3F26ABD1DCC76BF00B723E8 /* VenueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F26ABC1DCC76BF00B723E8 /* VenueManager.swift */; };
@@ -86,9 +85,8 @@
 		A31859AD1DA2C4850075D86A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A31859B11DA2C6610075D86A /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
 		A330D7431DED6A7F00809958 /* Ticket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		A390AE6B1DFAA20400FB5D0D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		A39B64561DE9EC1E00D62BDC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		A39B64581DE9EDD100D62BDC /* SQLDataIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLDataIO.swift; sourceTree = "<group>"; };
-		A39B64591DE9EDD100D62BDC /* SQLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLViewController.swift; sourceTree = "<group>"; };
 		A39B645D1DE9EE4600D62BDC /* BridgeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
 		A3F26AB61DCC768D00B723E8 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		A3F26AB81DCC769F00B723E8 /* EventManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventManager.swift; sourceTree = "<group>"; };
@@ -131,6 +129,7 @@
 		A31859731DA2C4500075D86A = {
 			isa = PBXGroup;
 			children = (
+				A390AE6B1DFAA20400FB5D0D /* Podfile */,
 				A318597E1DA2C4500075D86A /* Dupsy */,
 				A31859931DA2C4500075D86A /* DupsyTests */,
 				A318599E1DA2C4500075D86A /* DupsyUITests */,
@@ -153,8 +152,6 @@
 			isa = PBXGroup;
 			children = (
 				A39B645D1DE9EE4600D62BDC /* BridgeHeader.h */,
-				A39B64581DE9EDD100D62BDC /* SQLDataIO.swift */,
-				A39B64591DE9EDD100D62BDC /* SQLViewController.swift */,
 				A318597F1DA2C4500075D86A /* AppDelegate.swift */,
 				A31859811DA2C4500075D86A /* ViewController.swift */,
 				A31859831DA2C4500075D86A /* Main.storyboard */,
@@ -317,6 +314,7 @@
 			files = (
 				A318598A1DA2C4500075D86A /* LaunchScreen.storyboard in Resources */,
 				A31859871DA2C4500075D86A /* Assets.xcassets in Resources */,
+				A390AE6C1DFAA20400FB5D0D /* Podfile in Resources */,
 				A31859851DA2C4500075D86A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,7 +346,6 @@
 				A3F26ACE1DCD05E300B723E8 /* Venue_Status.swift in Sources */,
 				A31859821DA2C4500075D86A /* ViewController.swift in Sources */,
 				A3F26ABD1DCC76BF00B723E8 /* VenueManager.swift in Sources */,
-				A39B645B1DE9EDD100D62BDC /* SQLDataIO.swift in Sources */,
 				A3169B9B1DB172210072B8DE /* RSVP_Status.swift in Sources */,
 				A31859801DA2C4500075D86A /* AppDelegate.swift in Sources */,
 				A31859AE1DA2C4850075D86A /* User.swift in Sources */,
@@ -358,7 +355,6 @@
 				A3F6A30B1DF472B0007B94E5 /* TicketManager.swift in Sources */,
 				A3F26AC11DCC776E00B723E8 /* UserManager.swift in Sources */,
 				A3F26ADC1DD0F7D300B723E8 /* Venue.swift in Sources */,
-				A39B645C1DE9EDD100D62BDC /* SQLViewController.swift in Sources */,
 				A31859B21DA2C6610075D86A /* ConnectionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

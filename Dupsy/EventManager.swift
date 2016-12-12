@@ -27,7 +27,7 @@ class EventManager{
     }
     
     public func getAllEvents(){
-        
+
         print(eventList)
         
     }
@@ -55,6 +55,23 @@ class EventManager{
     
     
     public func updateEvent(){
+        
+        
+    }
+    
+    func allocateTicketsToEvent(){
+        
+        
+    }
+    
+    
+    func deleteUnallocatedTickets(){
+        
+        
+    }
+    
+    
+    func getTicketsForEvent(){
         
         
     }

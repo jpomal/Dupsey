@@ -181,7 +181,7 @@ class SQLDataIO
             if sqlite3_step(getStatement) == SQLITE_ROW {
                 
                 let getResultCol = sqlite3_column_text(getStatement, 0)
-                value = String(cString: UnsafePointer<CChar>(getResultCol!))
+                //value = String(cString: UnsafePointer<CChar>(getResultCol!))
             }
             
         } else {
@@ -291,8 +291,8 @@ class SQLDataIO
                 for i in  0..<numColumns
                 {
                     let val = sqlite3_column_text(getStatement, Int32(i))
-                    let valStr = String(cString: UnsafePointer<CChar>(val!))
-                    rowArray.append(valStr)
+                   // let valStr = String(cString: UnsafePointer<CChar>(val!))
+                    //rowArray.append(valStr)
                     //print("col: \(i) | value:\(valStr)")
                 }
                 
