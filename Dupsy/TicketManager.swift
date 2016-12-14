@@ -32,11 +32,20 @@ class TicketManager: Ticket {
         
     }
     
-    func getTicketBarcode(){
+    func getTicketQr(){
         
         
     }
-
+    
+    func verifyTicketQr(){
+        
+        
+    }
+    
+    func verifyTicketPaymet(){
+        
+        
+    }
     
     
     

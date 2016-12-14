@@ -13,12 +13,17 @@ class Ticket: NSObject{
     
     var ticket_id : NSString
     var event_info: Event
+    
+    var ticket_qrcode: NSObject
 
     
 
-    init(id: NSString, eveinfo:Event){
+    init(id: NSString, eveinfo:Event, qr:NSObject){
         self.ticket_id = id
         self.event_info = eveinfo
+        self.ticket_qrcode = qr
+        
+
         }
 
 
