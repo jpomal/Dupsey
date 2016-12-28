@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E5909D12599AEBEBE817B73 /* Pods_DupsyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA24C0E7CFE7790F473F8265 /* Pods_DupsyUITests.framework */; };
+		7CFC6A7313F2D0AB71BAA458 /* Pods_Dupsy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE550F5DAC0C4AA37B3FE28 /* Pods_Dupsy.framework */; };
 		A3169B9B1DB172210072B8DE /* RSVP_Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169B9A1DB172210072B8DE /* RSVP_Status.swift */; };
 		A3169B9C1DB172210072B8DE /* RSVP_Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169B9A1DB172210072B8DE /* RSVP_Status.swift */; };
 		A3169B9D1DB172210072B8DE /* RSVP_Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169B9A1DB172210072B8DE /* RSVP_Status.swift */; };
@@ -48,6 +50,7 @@
 		A3F26ADE1DD0F7D300B723E8 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F26ADB1DD0F7D300B723E8 /* Venue.swift */; };
 		A3F6A30B1DF472B0007B94E5 /* TicketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F6A30A1DF472B0007B94E5 /* TicketManager.swift */; };
 		A3F6A30D1DF472C2007B94E5 /* TicketStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F6A30C1DF472C2007B94E5 /* TicketStatus.swift */; };
+		AC6E5FFC53164FFC156ABAEF /* Pods_DupsyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A00010E5C6BACF65E45435 /* Pods_DupsyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26A00010E5C6BACF65E45435 /* Pods_DupsyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DupsyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32CCC9FE274F00B59E16B831 /* Pods-DupsyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DupsyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DupsyTests/Pods-DupsyTests.release.xcconfig"; sourceTree = "<group>"; };
+		510074682E78CD73DB0ABC02 /* Pods-Dupsy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dupsy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dupsy/Pods-Dupsy.debug.xcconfig"; sourceTree = "<group>"; };
+		5EC7196B2A65B898AB3E0DC6 /* Pods-DupsyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DupsyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DupsyUITests/Pods-DupsyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7BE550F5DAC0C4AA37B3FE28 /* Pods_Dupsy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dupsy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E67192EED013B96CFAC8CDB /* Pods-DupsyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DupsyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DupsyUITests/Pods-DupsyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		86B595A1531F2BAFBE1EB2BD /* Pods-DupsyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DupsyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DupsyTests/Pods-DupsyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A3169B9A1DB172210072B8DE /* RSVP_Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSVP_Status.swift; sourceTree = "<group>"; };
 		A318597C1DA2C4500075D86A /* Dupsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dupsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A318597F1DA2C4500075D86A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,7 +95,7 @@
 		A31859AD1DA2C4850075D86A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A31859B11DA2C6610075D86A /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
 		A330D7431DED6A7F00809958 /* Ticket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
-		A390AE6B1DFAA20400FB5D0D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		A390AE6B1DFAA20400FB5D0D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A39B64561DE9EC1E00D62BDC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		A39B645D1DE9EE4600D62BDC /* BridgeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
 		A3F26AB61DCC768D00B723E8 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
@@ -98,6 +108,8 @@
 		A3F26ADB1DD0F7D300B723E8 /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
 		A3F6A30A1DF472B0007B94E5 /* TicketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketManager.swift; sourceTree = "<group>"; };
 		A3F6A30C1DF472C2007B94E5 /* TicketStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketStatus.swift; sourceTree = "<group>"; };
+		AA24C0E7CFE7790F473F8265 /* Pods_DupsyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DupsyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D064F3A0A1EEA74E5ED76C5B /* Pods-Dupsy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dupsy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dupsy/Pods-Dupsy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A39B64571DE9EC1E00D62BDC /* libsqlite3.tbd in Frameworks */,
+				7CFC6A7313F2D0AB71BAA458 /* Pods_Dupsy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC6E5FFC53164FFC156ABAEF /* Pods_DupsyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,12 +134,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E5909D12599AEBEBE817B73 /* Pods_DupsyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63F38A326F12521A64BEDD5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				510074682E78CD73DB0ABC02 /* Pods-Dupsy.debug.xcconfig */,
+				D064F3A0A1EEA74E5ED76C5B /* Pods-Dupsy.release.xcconfig */,
+				86B595A1531F2BAFBE1EB2BD /* Pods-DupsyTests.debug.xcconfig */,
+				32CCC9FE274F00B59E16B831 /* Pods-DupsyTests.release.xcconfig */,
+				7E67192EED013B96CFAC8CDB /* Pods-DupsyUITests.debug.xcconfig */,
+				5EC7196B2A65B898AB3E0DC6 /* Pods-DupsyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A31859731DA2C4500075D86A = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +163,7 @@
 				A318599E1DA2C4500075D86A /* DupsyUITests */,
 				A318597D1DA2C4500075D86A /* Products */,
 				A39B64551DE9EC1E00D62BDC /* Frameworks */,
+				63F38A326F12521A64BEDD5A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -198,6 +227,9 @@
 			isa = PBXGroup;
 			children = (
 				A39B64561DE9EC1E00D62BDC /* libsqlite3.tbd */,
+				7BE550F5DAC0C4AA37B3FE28 /* Pods_Dupsy.framework */,
+				26A00010E5C6BACF65E45435 /* Pods_DupsyTests.framework */,
+				AA24C0E7CFE7790F473F8265 /* Pods_DupsyUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -209,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A31859A41DA2C4500075D86A /* Build configuration list for PBXNativeTarget "Dupsy" */;
 			buildPhases = (
+				C7EBD7407C2449C61601CD23 /* [CP] Check Pods Manifest.lock */,
 				A31859781DA2C4500075D86A /* Sources */,
 				A31859791DA2C4500075D86A /* Frameworks */,
 				A318597A1DA2C4500075D86A /* Resources */,
+				3BCE13AB411E4C85D5B52B53 /* [CP] Embed Pods Frameworks */,
+				CE73C28CB93D2206F4849468 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A31859A71DA2C4500075D86A /* Build configuration list for PBXNativeTarget "DupsyTests" */;
 			buildPhases = (
+				D41F467D4C6A59CEB9303849 /* [CP] Check Pods Manifest.lock */,
 				A318598C1DA2C4500075D86A /* Sources */,
 				A318598D1DA2C4500075D86A /* Frameworks */,
 				A318598E1DA2C4500075D86A /* Resources */,
+				590126E6629D8ABD4CD1BBD2 /* [CP] Embed Pods Frameworks */,
+				055B13EC51F93AA623D58F2A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,9 +282,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A31859AA1DA2C4500075D86A /* Build configuration list for PBXNativeTarget "DupsyUITests" */;
 			buildPhases = (
+				4C278E9DBE41DED695FEE00D /* [CP] Check Pods Manifest.lock */,
 				A31859971DA2C4500075D86A /* Sources */,
 				A31859981DA2C4500075D86A /* Frameworks */,
 				A31859991DA2C4500075D86A /* Resources */,
+				FF127424F54BDCF41E536C07 /* [CP] Embed Pods Frameworks */,
+				0A60E9D786489E9D0C12EE5D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -334,6 +375,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		055B13EC51F93AA623D58F2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DupsyTests/Pods-DupsyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A60E9D786489E9D0C12EE5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DupsyUITests/Pods-DupsyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BCE13AB411E4C85D5B52B53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dupsy/Pods-Dupsy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C278E9DBE41DED695FEE00D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		590126E6629D8ABD4CD1BBD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DupsyTests/Pods-DupsyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7EBD7407C2449C61601CD23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE73C28CB93D2206F4849468 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dupsy/Pods-Dupsy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D41F467D4C6A59CEB9303849 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF127424F54BDCF41E536C07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DupsyUITests/Pods-DupsyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A31859781DA2C4500075D86A /* Sources */ = {
@@ -518,6 +697,7 @@
 		};
 		A31859A51DA2C4500075D86A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 510074682E78CD73DB0ABC02 /* Pods-Dupsy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Dupsy/Info.plist;
@@ -530,6 +710,7 @@
 		};
 		A31859A61DA2C4500075D86A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D064F3A0A1EEA74E5ED76C5B /* Pods-Dupsy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Dupsy/Info.plist;
@@ -542,6 +723,7 @@
 		};
 		A31859A81DA2C4500075D86A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86B595A1531F2BAFBE1EB2BD /* Pods-DupsyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DupsyTests/Info.plist;
@@ -555,6 +737,7 @@
 		};
 		A31859A91DA2C4500075D86A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32CCC9FE274F00B59E16B831 /* Pods-DupsyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DupsyTests/Info.plist;
@@ -568,6 +751,7 @@
 		};
 		A31859AB1DA2C4500075D86A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E67192EED013B96CFAC8CDB /* Pods-DupsyUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = DupsyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -581,6 +765,7 @@
 		};
 		A31859AC1DA2C4500075D86A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC7196B2A65B898AB3E0DC6 /* Pods-DupsyUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = DupsyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
